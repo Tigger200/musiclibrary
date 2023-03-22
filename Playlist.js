@@ -5,8 +5,8 @@ export default class Playlists{
     this.heard = heard
     }
 
-    addSong(song){
-        this.songs.push(song)
+    addSong(hello){
+        this.songs.push(hello)
  
     }
 }
