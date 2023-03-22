@@ -1,9 +1,7 @@
-export default class Playlist{
-    constructor (artist, songs=[], runtime, heard, unheard){
-    this.artist = artist
+export default class Playlists{
+    constructor (Playlist, songs=[], heard){
+    this.Playlist = Playlist
     this.songs = songs
-    this.runtime = runtime
-    this.unheard = unheard 
     this.heard = heard
     }
 

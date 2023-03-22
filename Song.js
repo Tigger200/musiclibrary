@@ -1,9 +1,9 @@
 export default class Song {
     constructor (title, artistfirstname, artistlastname, genre, runtime) {
         this.title = title 
-        this.genre = genre
         this.artistfirstname = artistfirstname
         this.artistlastname = artistlastname
+        this.genre = genre
         this.runtime = runtime
     }    
 
