@@ -16,4 +16,5 @@ classActPlaylist.addSong(signedsealeddelivered);
 let mary = new Listener("Mary Fuller", 'Female', 51, 176121, 30314)
 
 console.log(classActPlaylist);
-console.log(delete this.runtime)
+console.log(delete Song.runtime)
+console.log(Song)
